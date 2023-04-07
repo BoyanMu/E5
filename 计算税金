@@ -1,0 +1,13 @@
+# a,b,c=map(int,input().split())
+# print ("%d %d %d" %(a,b,c))
+# print('{} {} {}'.format(a,b,c))
+a=float(input())
+if a>=10000:
+    a*=0.05
+elif a>=5000:
+     a*=0.03
+elif a>=1000:
+    a*=0.02
+else:
+    a=0
+print("Tax=%.2fyuan"%a)
